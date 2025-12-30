@@ -4,6 +4,7 @@ function Card({children}){
         padding: "10px",
         margin: "5px",
         width: "fit-content",
+        backgroundColor: "rgba(58, 96, 160, 1)",
         color: "white"
     };
 
