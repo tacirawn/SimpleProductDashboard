@@ -3,7 +3,8 @@ import Card from './Card'
 function Product({title, price}){
     return(
         <Card>
-            <p>Title: {title} Price: {price}</p>
+            <p>Title: {title}</p>
+            <p>Price: {price}</p>
         </Card>
     );
 }

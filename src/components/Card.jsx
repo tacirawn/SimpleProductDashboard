@@ -2,7 +2,9 @@ function Card({children}){
     const style = {
         border: "2px solid black",
         padding: "10px",
-        margin: "3px"
+        margin: "5px",
+        width: "fit-content",
+        color: "white"
     };
 
     return(
