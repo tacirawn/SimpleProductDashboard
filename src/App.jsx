@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ProductList from './components./ProductList'
 
 function App() {
     const [showProducts, setShowProducts] = useState(false);
@@ -15,8 +16,10 @@ function App() {
     return(
         <div>
             <h1>Product Dashboard</h1>
-            <button onClick={toggle}> </button>
+            <button onClick={toggle}>{showProducts ? "HideProducts" : "Show Products"}</button>
             <input value={name} onChange={nameInput} type='text' placeholder='Enter your name here'></input>
+            <p>Hello, {name}</p>
+            {showProducts && <ProductList></ProductList>}
         </div>
     );
 }
