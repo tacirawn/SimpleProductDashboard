@@ -1,4 +1,5 @@
 File Organization
+
 index.html: The root HTML file where the React application is mounted.
 src/components/Card.jsx: A reusable wrapper component that provides the styled blue background.
 src/components/Product.jsx: Displays individual product details.
