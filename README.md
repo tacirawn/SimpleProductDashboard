@@ -17,4 +17,4 @@ Challenges
 
 Syntax Error: Standard CSS properties like background-color caused errors in JSX, so I converted them to camelCase (backgroundColor).
 
-Recursion Error: I accidentally used the <Product> tag inside the component itself. I fixed it by replacing it with standard HTML tags like <p>.
+Recursion Error: I accidentally used the "Product" tag inside the component itself. I fixed it by replacing it with standard HTML tags like "p".
